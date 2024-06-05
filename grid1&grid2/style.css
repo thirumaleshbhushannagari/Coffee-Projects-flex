@@ -1,0 +1,96 @@
+/* body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+
+
+.boxes {
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+     column-gap: 20px;
+    row-gap: 20px; 
+    gap: 20px;
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9 {
+    width: 200px;
+    height: 200px;
+}
+
+
+.box1,
+.box3,
+.box5,
+.box7,
+.box9 {
+    background-color: red;
+}
+
+
+.box2,
+.box4,
+.box6,
+.box8 {
+    background-color: blue;
+} 
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:repeat(3 1fr) ;
+    height: 100vh;
+    gap: 5px;
+    grid-template-areas: "box1 box2 box3"
+                       "box4 box2 box5"
+}
+.box{
+    padding: 20px;
+}
+/* .box:nth-child(even){
+    background-color: chartreuse;
+}
+.box:nth-child(odd){
+    background-color: coral;
+} */
+
+.box1{
+    grid-area: box1;
+    background-color: lightcyan;
+}
+.box2{
+    grid-area: box2;
+    background-color:lightgreen;
+}
+.box3{
+    grid-area: box3;
+    background-color: lightgrey;
+}
+.box4{
+    grid-area: box4;
+    background-color: blue;
+}
+.box5{
+    grid-area: box5;
+    background-color: black;
+}

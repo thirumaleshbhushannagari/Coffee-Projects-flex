@@ -1,0 +1,37 @@
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+
+.box:hover{
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+}
+
+p{
+    font-size: 25px;
+    color: red;
+}
+p:hover{
+    background-color: green;
+}
+
+/* h1::after{
+    content: "iam addes after css";
+} */
+/* h1::before{
+    content: "my name is thirumalesh";
+} */
+
+/* h1::first-letter{
+    color: deeppink;
+} */
+
+p::first-line{
+    color: maroon;
+}
+

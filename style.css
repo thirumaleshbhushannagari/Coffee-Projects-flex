@@ -1,0 +1,207 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin: auto;
+    width: 70%;
+}
+
+.child {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+img {
+    width: 30%;
+    gap: 100px;
+}
+
+.class {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    align-items: center;
+}
+
+button {
+    outline: 0px;
+    border: 0px;
+    background-color: darkgoldenrod;
+    color: black;
+    width: 100px;
+    gap: 80%;
+    height: 30px;
+}
+
+.headings {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chintu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    gap: 15px;
+
+}
+
+.ravi {
+    outline: 0px;
+    border: 0px;
+    background-color: darkgoldenrod;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+.thiru {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.thiru img {
+    width: 70%;
+}
+
+.chintu h2 {
+    font-size: 50px;
+}
+
+.sa1{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.sai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 125px;
+    padding-top: 10%;
+}
+.h3{
+    border: 3px solid darkgoldenrod;
+    padding: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 20%;
+}
+
+
+
+
+
+.malesh{
+    padding: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.get{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+
+}
+hr{
+    width: 40%;
+    height: 40%;
+    border-color: darkgoldenrod;
+    
+}
+.t{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3%;
+    height: 80px;
+    color: darkgoldenrod;
+}
+span{
+    color: darkgoldenrod;
+}
+.contactus h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    height: 80px;
+}
+.openinghourse h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    height: 80px;
+
+}
+.aboutus h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    height: 80px;
+}
+
+
+p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+
+
+
+
